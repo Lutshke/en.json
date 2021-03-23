@@ -1,19 +1,14 @@
 {
     "Not_Important": {
-
-        "This is the English template for the oasis selfbot" : 
-        "Feel free to change stuff here or create your own translations",
-
-        "This is not the most accurate english translation" : 
-        "I tried my best but if there are any mistakes in here please let us know"
-
+        "This is the English template for the oasis selfbot": "Feel free to change stuff here or create your own translations",
+        "This is not the most accurate english translation": "I tried my best but if there are any mistakes in here please let us know"
     },
     "Sniper": {
         "RateLimit": "Nitro spam protection. Rate limited for 10 seconds",
         "AlreadyRedeemed": "Nitro Already Redeemed",
         "NitroClaimed": "Nitro Claimed!",
         "UnknownCode": "Unknown Nitro Code",
-        "DefaultSniperMsg" : "Nitro code sniped!",
+        "DefaultSniperMsg": "Nitro code sniped!",
         "CantReact": "Couldnt React to Giveaway",
         "GiveawayFound": "Giveaway Found!",
         "GiveawayJoined": "Giveaway Joined!",
@@ -24,14 +19,14 @@
         "FakeGiveaway": "Bait Giveaway Found!",
         "SniperOff": "Sniper is off",
         "GiveawayWon": "Giveaway Won!",
-        "GiveawayJoining" : "Sniping Giveaway in",
-        "SeeConsole" : "Look into console"
+        "GiveawayJoining": "Sniping Giveaway in",
+        "SeeConsole": "Look into console"
     },
     "Error_Handling": {
         "MissingArgs": "Missing Arguments!",
         "MissingPerms": "Missing Permissions!",
         "InvalidArgs": "Invalid Arguments!",
-        "RuntimeError" : "Something didnt work. Try again",
+        "RuntimeError": "Something didnt work. Try again",
         "Accountnotfound": "Account not found!",
         "empty_rtoken": "You didnt put your alt token in the config.json file",
         "same_rtoken": "Alt token connot be same as Reedem Token!",
@@ -39,13 +34,13 @@
         "invalid_token": "Token is invalid",
         "Known_accounts": "Known Accounts:",
         "no_token_given": "No Token was given :/",
-        "invalidNumber" : "Not a valid number",
-        "bypass_error" : "Cant bypass or isnt a valid link :(",
-        "PrefixError" : "Prefix could not be changed!",
-        "invalidIP" : "not a valid IP"
+        "invalidNumber": "Not a valid number",
+        "bypass_error": "Cant bypass or isnt a valid link :(",
+        "PrefixError": "Prefix could not be changed!",
+        "invalidIP": "not a valid IP"
     },
     "Fun": {
-        "CustomUrlMsg" : "Custom invite copied to clipboard!"
+        "CustomUrlMsg": "Custom invite copied to clipboard!"
     },
     "Useful": {},
     "Image": {},
@@ -56,178 +51,696 @@
     "Backup": {},
     "Config": {},
     "Console": {},
-    "DefaultHelp" : [
-        {"name": "🎉 Fun", "value": "```Fun commands```"},
-        {"name": "🎭 Image", "value": "```Image commands```"},
-        {"name": "📕 Useful", "value": "```Useful commands```"},
-        {"name": "📝 Text", "value": "```Text commands```"},
-        {"name": "🛑 NSFW", "value": "```NSFW commands```"},
-        {"name": "💣 Abuse", "value": "```Abuse commands```"},
-        {"name": "🔰 Network", "value": "```Network commands```"},
-        {"name": "💼 Backup", "value": "```Backup commands```"},
-        {"name": "🔨 Config", "value": "```Config commands```"},
-        {"name": "💻 Console", "value": "```Console commands```"}
+    "DefaultHelp": [
+        {
+            "name": "🎉 Fun",
+            "value": "Shows all Fun commands"
+        },
+        {
+            "name": "🎭 Image",
+            "value": "Shows all Image commands"
+        },
+        {
+            "name": "📕 Useful",
+            "value": "Shows all Useful commands"
+        },
+        {
+            "name": "📝 Text",
+            "value": "Shows all Text commands"
+        },
+        {
+            "name": "🛑 NSFW",
+            "value": "Shows all NSFW commands"
+        },
+        {
+            "name": "💣 Abuse",
+            "value": "Shows all Abuse commands"
+        },
+        {
+            "name": "🔰 Network",
+            "value": "Shows all Network commands"
+        },
+        {
+            "name": "💼 Backup",
+            "value": "Shows all Backup commands"
+        },
+        {
+            "name": "🔨 Config",
+            "value": "Shows all Config commands"
+        },
+        {
+            "name": "💻 Console",
+            "value": "Shows all Console commands"
+        }
     ],
-    "CommandDescription" : [
-        {"name": "help", "value" : "Shows all Categorys"},
-        {"name": "fun", "value": "Shows all Fun commands"},
-        {"name": "image", "value": "Shows all Image commands"},
-        {"name": "useful", "value": "Shows all Useful commands"},
-        {"name": "text", "value": "Shows all Text commands"},
-        {"name": "nsfw", "value": "Shows all NSFW commands"},
-        {"name": "Abuse", "value": "Shows all Abuse commands"},
-        {"name": "network", "value": "Shows all Network commands"},
-        {"name": "backup", "value": "Shows all Backup commands"},
-        {"name": "config", "value": "Shows all Config commands"},
-        {"name": "console", "value": "Shows all Console commands"},
-        {"name": "ping", "value": "shows your bot latency"},
-        {"name": "whois", "value": "shows info about a user"},
-        {"name": "userlookup", "value": "shows info about a user not in your server"},
-        {"name": "poll", "value": "creates a poll"},
-        {"name": "servericon", "value": "sends the server icon"},
-        {"name": "pfp", "value": "sends the profile pic of a user/yourself"},
-        {"name": "nitro", "value": "sends a random nitro code"},
-        {"name": "qrcode", "value": "creates a custom qrcode"},
-        {"name": "tinyurl", "value": "shortens a url"},
-        {"name": "delay", "value": "sets the slowmode"},
-        {"name": "reddit", "value": "sends random pics from a subreddit"},
-        {"name": "hypesquad", "value": "changes your hypesquad house"},
-        {"name": "hook", "value": "helps you setup a webhook"},
-        {"name": "ytsearch", "value": "looks for a youtube video by title"},
-        {"name": "ytdl", "value": "downloads a youtube video"},
-        {"name": "linkvertise", "value": "linkvertise bypasser"},
-        {"name": "custominv", "value": "creates a custom discord invite link"},
-        {"name": "ghostping", "value": "ghostpings a user"},
-        {"name": "nuke", "value": "nukes a discord channel"},
-        {"name": "copy", "value": "copys a server"},
-        {"name": "add", "value": "add two numbers"},
-        {"name": "sub", "value": "subtract two numbers"},
-        {"name": "mult", "value": "multiply two numbers"},
-        {"name": "div", "value": "divide two numbers"},
-        {"name": "log", "value": "creates a log of last messages"},
-        {"name": "rndScreen", "value": "Sends the link of a random screenshot (Not all links work)"},
-        {"name": "gay", "value": "Turn someone gay"},
-        {"name": "wasted", "value": "WASTED!!"},
-        {"name": "rape", "value": "rape someone"},
-        {"name": "trash", "value": "throw someone in the trash"},
-        {"name": "cool", "value": "Born cool"},
-        {"name": "delete", "value": "delete someone"},
-        {"name": "phcommant", "value": "Pornhub Comment"},
-        {"name": "phlogo", "value": "Pornhub Logo"},
-        {"name": "jpeg", "value": "turn someone into a JPEG"},
-        {"name": "communist", "value": "turn someone into a communist"},
-        {"name": "fax", "value": "Facts"},
-        {"name": "cum", "value": "cum on people"},
-        {"name": "supreme", "value": "Creates a Supreme Logo"},
-        {"name": "darksupreme", "value": "Creates a Dark Supreme Logo"},
-        {"name": "pixel", "value": "pixellate someones profile pic"},
-        {"name": "blur", "value": "blur someones profile pic"},
-        {"name": "fry", "value": "deepfry someones profile pic"},
-        {"name": "distort", "value": "distort someones profile pic"},
-        {"name": "changemymind", "value": "Can you??"},
-        {"name": "whowouldwin", "value": "who would win??"},
-        {"name": "ship", "value": "ship two people"},
-        {"name": "trap", "value": "Trapcard someone"},
-        {"name": "kanna", "value": "KANNA"},
-        {"name": "scroll", "value": "creates the scroll of truth"},
-        {"name": "triggered", "value": "is someone triggered ??"},
-        {"name": "stonks", "value": "STONKS!!"},
-        {"name": "notstonks", "value": "NOT STONKS!! "},
-        {"name": "didyoumean", "value": "Did you Mean??"},
-        {"name": "amiajoke", "value": "am i a joke to you ?? :(("},
-        {"name": "memestealer", "value": "create a memestealer license"},
-        {"name": "heaven", "value": "send someone to heaven"},
-        {"name": "drake", "value": "creates a drake meme"},
-        {"name": "achievement", "value": "Minecraft achievement"},
-        {"name": "challenge", "value": "Minecraft challenge"},
-        {"name": "vibe", "value": "VIBIN!!"},
-        {"name": "baka", "value": "BAKKAA!!"},
-        {"name": "lizard", "value": "sends random lizard pic"},
-        {"name": "gasm", "value": "gasm"},
-        {"name": "gecg", "value": "gecg"},
-        {"name": "neko", "value": "neko"},
-        {"name": "meme", "value": "sends a random meme"},
-        {"name": "joke", "value": "sends a random joke"},
-        {"name": "dong", "value": "someones pp size"},
-        {"name": "waifu", "value": "sends a random waifu"},
-        {"name": "goose", "value": "GOOSE"},
-        {"name": "dog", "value": "sends random dog pic"},
-        {"name": "typing", "value": "Shows typing... for an hour"},
-        {"name": "imposter", "value": "make someone the imposter"},
-        {"name": "crewmate", "value": "make someone the crewmate"},
-        {"name": "genname", "value": "gen a random name"},
-        {"name": "tableflip", "value": "tableflip"},
-        {"name": "lenny", "value": "sends a lenny face"},
-        {"name": "howgay", "value": "shows you how gay is someone"},
-        {"name": "911", "value": "💣"},
-        {"name": "spam", "value": "spam someone. Stop the spam with >stop"},
-        {"name": "game", "value": "sets your game status"},
-        {"name": "stream", "value": "sets your stream status"},
-        {"name": "listening", "value": "sets your listening status"},
-        {"name": "watching", "value": "sets your watching status"},
-        {"name": "rstatus", "value": "remove your status"},
-        {"name": "ascii", "value": "turns your message into a ascii"},
-        {"name": "ascii2", "value": "turns your message into a ascii"},
-        {"name": "spoiler", "value": "||spoilers your message||"},
-        {"name": "bold", "value": "**makes your message bold**"},
-        {"name": "code", "value": "`adds a code block to your message`"},
-        {"name": "cursed", "value": "c̵̭̋u̹͂͞ŕ̡ͬs̟ͯ͜ȩ̱͜s̶ͪͅ y̷̽͢ò̼̏u̷̠̓r͍̹ͯ m̨̪ͣe̫̽͜s̺͂͘s̙̾ͅa̻ͯ̇g͖̭͘ȩ͖ͩ"},
-        {"name": "tiny", "value": "ˢʰʳᶦᶰᵏˢ ʸᵒᵘʳ ᵐᵉˢˢᵃᵍᵉ"},
-        {"name": "thicc", "value": "ㄒ卄丨匚匚"},
-        {"name": "old", "value": "𝔗ℌ𝔈  𝔊𝔒𝔒𝔇  𝔒𝔏𝔇  𝔗ℑ𝔐𝔈𝔖"},
-        {"name": "reverse", "value": "reverses your message"},
-        {"name": "tts", "value": "text to speech"},
-        {"name": "clap", "value": "puts 👏 claps 👏 between 👏 your 👏 words"},
-        {"name": "note", "value": "note something"},
-        {"name": "emojify", "value": "emojifys your words"},
-        {"name": "encode", "value": "encode a message"},
-        {"name": "decode", "value": "decode a message"},
-        {"name": "spurge", "value": "purge your own messages"},
-        {"name": "custom", "value": "access your custom commands"},
-        {"name": "addemoji", "value": "add an emoji to your custom emojis"},
-        {"name": "anal", "value": "---"},
-        {"name": "boobs", "value": "---"},
-        {"name": "erofeet", "value": "---"},
-        {"name": "feet", "value":  "---"},
-        {"name": "tits", "value": "---"},
-        {"name": "blowjob", "value": "---"},
-        {"name": "lewdneko", "value": "---"},
-        {"name": "hentai", "value": "---"},
-        {"name": "lesbian", "value": "---"},
-        {"name": "pussy", "value": "---"},
-        {"name": "nekogif", "value": "---"},
-        {"name": "phsearch", "value": "pulls a vid by title"},
-        {"name": "rule", "value": "pulls a image from rule 34"},
-        {"name": "tokeninfo", "value": "gets information from user token"},
-        {"name": "tokenfuck", "value": "fucks a user token"},
-        {"name": "dmall", "value": "dms everyone in the server"},
-        {"name": "banall", "value": "bans everyone from the server"},
-        {"name": "kickall", "value": "kicks everyone from the server"},
-        {"name": "unbanall", "value": "unbans everyone"},
-        {"name": "spamrole", "value": "creates a lot of roles"},
-        {"name": "spamchannels", "value": "creates a lot of channels"},
-        {"name": "delchannels", "value": "deletes all channels"},
-        {"name": "delroles", "value": "deletes all roles"},
-        {"name": "nazification", "value": "turns the server to a nazi server"},
-        {"name": "geoip", "value": "lookup an ip"},
-        {"name": "pingweb", "value": "checks the status of a website"},
-        {"name": "backupall", "value": "backup everything"},
-        {"name": "recoverall", "value": "recover everything from backup"},
-        {"name": "backupfriends", "value": "backup friends"},
-        {"name": "backupservers", "value": "backup servers"},
-        {"name": "recoverfriends", "value": "recover friends from backup"},
-        {"name": "recoverservers", "value": "recover friends from backup"},
-        {"name": "cls", "value": "cleans the console"},
-        {"name": "stats", "value": "shows you selfbot stats"},
-        {"name": "shutdown", "value": "Shutdown the selfbot"},
-        {"name": "config", "value": "shows current config settings"},
-        {"name": "embeds", "value": "turn embeds on/off"},
-        {"name": "autodel", "value": "turn on/off the auto delete of embeds"},
-        {"name": "delsec", "value": "changes the second it takes to delete an embed"},
-        {"name": "addbot", "value": "adds a bot to the list"},
-        {"name": "removebot", "value": "removes a bot from the list"},
-        {"name": "ttslang", "value": "changes the language of the tts command"},
-        {"name": "uwu", "value": "uwuifys youw text UwU"},
-        {"name": "prefix", "value": "changes the prefix"}
+    "CommandDescription": [
+        {
+            "name": "help",
+            "value": "Shows all Categorys"
+        },
+        {
+            "name": "fun",
+            "value": "Shows all Fun commands"
+        },
+        {
+            "name": "image",
+            "value": "Shows all Image commands"
+        },
+        {
+            "name": "useful",
+            "value": "Shows all Useful commands"
+        },
+        {
+            "name": "text",
+            "value": "Shows all Text commands"
+        },
+        {
+            "name": "nsfw",
+            "value": "Shows all NSFW commands"
+        },
+        {
+            "name": "Abuse",
+            "value": "Shows all Abuse commands"
+        },
+        {
+            "name": "network",
+            "value": "Shows all Network commands"
+        },
+        {
+            "name": "backup",
+            "value": "Shows all Backup commands"
+        },
+        {
+            "name": "config",
+            "value": "Shows all Config commands"
+        },
+        {
+            "name": "console",
+            "value": "Shows all Console commands"
+        },
+        {
+            "name": "ping",
+            "value": "shows your bot latency"
+        },
+        {
+            "name": "whois",
+            "value": "shows info about a user"
+        },
+        {
+            "name": "userlookup",
+            "value": "shows info about a user not in your server"
+        },
+        {
+            "name": "friendID",
+            "value": "add friends by ID"
+        },
+        {
+            "name": "poll",
+            "value": "creates a poll"
+        },
+        {
+            "name": "servericon",
+            "value": "sends the server icon"
+        },
+        {
+            "name": "pfp",
+            "value": "sends the profile pic of a user/yourself"
+        },
+        {
+            "name": "nitro",
+            "value": "sends a random nitro code"
+        },
+        {
+            "name": "qrcode",
+            "value": "creates a custom qrcode"
+        },
+        {
+            "name": "tinyurl",
+            "value": "shortens a url"
+        },
+        {
+            "name": "delay",
+            "value": "sets the slowmode"
+        },
+        {
+            "name": "reddit",
+            "value": "sends random pics from a subreddit"
+        },
+        {
+            "name": "hypesquad",
+            "value": "changes your hypesquad house"
+        },
+        {
+            "name": "hook",
+            "value": "helps you setup a webhook"
+        },
+        {
+            "name": "ytsearch",
+            "value": "looks for a youtube video by title"
+        },
+        {
+            "name": "ytdl",
+            "value": "downloads a youtube video"
+        },
+        {
+            "name": "bypass",
+            "value": "linkvertise bypasser"
+        },
+        {
+            "name": "custominv",
+            "value": "creates a custom discord invite link"
+        },
+        {
+            "name": "ghostping",
+            "value": "ghostpings a user"
+        },
+        {
+            "name": "nuke",
+            "value": "nukes a discord channel"
+        },
+        {
+            "name": "copy",
+            "value": "copys a server"
+        },
+        {
+            "name": "add",
+            "value": "add two numbers"
+        },
+        {
+            "name": "sub",
+            "value": "subtract two numbers"
+        },
+        {
+            "name": "mult",
+            "value": "multiply two numbers"
+        },
+        {
+            "name": "div",
+            "value": "divide two numbers"
+        },
+        {
+            "name": "log",
+            "value": "creates a log of last messages"
+        },
+        {
+            "name": "rndScreen",
+            "value": "Sends the link of a random screenshot (Not all links work)"
+        },
+        {
+            "name": "gay",
+            "value": "Turn someone gay"
+        },
+        {
+            "name": "wasted",
+            "value": "WASTED!!"
+        },
+        {
+            "name": "rape",
+            "value": "rape someone"
+        },
+        {
+            "name": "trash",
+            "value": "throw someone in the trash"
+        },
+        {
+            "name": "cool",
+            "value": "Born cool"
+        },
+        {
+            "name": "delete",
+            "value": "delete someone"
+        },
+        {
+            "name": "phcommant",
+            "value": "Pornhub Comment"
+        },
+        {
+            "name": "phlogo",
+            "value": "Pornhub Logo"
+        },
+        {
+            "name": "jpeg",
+            "value": "turn someone into a JPEG"
+        },
+        {
+            "name": "communist",
+            "value": "turn someone into a communist"
+        },
+        {
+            "name": "fax",
+            "value": "Facts"
+        },
+        {
+            "name": "cum",
+            "value": "cum on people"
+        },
+        {
+            "name": "supreme",
+            "value": "Creates a Supreme Logo"
+        },
+        {
+            "name": "darksupreme",
+            "value": "Creates a Dark Supreme Logo"
+        },
+        {
+            "name": "pixel",
+            "value": "pixellate someones profile pic"
+        },
+        {
+            "name": "blur",
+            "value": "blur someones profile pic"
+        },
+        {
+            "name": "fry",
+            "value": "deepfry someones profile pic"
+        },
+        {
+            "name": "distort",
+            "value": "distort someones profile pic"
+        },
+        {
+            "name": "changemymind",
+            "value": "Can you??"
+        },
+        {
+            "name": "whowouldwin",
+            "value": "who would win??"
+        },
+        {
+            "name": "ship",
+            "value": "ship two people"
+        },
+        {
+            "name": "trap",
+            "value": "Trapcard someone"
+        },
+        {
+            "name": "kanna",
+            "value": "KANNA"
+        },
+        {
+            "name": "scroll",
+            "value": "creates the scroll of truth"
+        },
+        {
+            "name": "triggered",
+            "value": "is someone triggered ??"
+        },
+        {
+            "name": "stonks",
+            "value": "STONKS!!"
+        },
+        {
+            "name": "notstonks",
+            "value": "NOT STONKS!! "
+        },
+        {
+            "name": "didyoumean",
+            "value": "Did you Mean??"
+        },
+        {
+            "name": "amiajoke",
+            "value": "am i a joke to you ?? :(("
+        },
+        {
+            "name": "memestealer",
+            "value": "create a memestealer license"
+        },
+        {
+            "name": "heaven",
+            "value": "send someone to heaven"
+        },
+        {
+            "name": "drake",
+            "value": "creates a drake meme"
+        },
+        {
+            "name": "achievement",
+            "value": "Minecraft achievement"
+        },
+        {
+            "name": "challenge",
+            "value": "Minecraft challenge"
+        },
+        {
+            "name": "vibe",
+            "value": "VIBIN!!"
+        },
+        {
+            "name": "baka",
+            "value": "BAKKAA!!"
+        },
+        {
+            "name": "lizard",
+            "value": "sends random lizard pic"
+        },
+        {
+            "name": "gasm",
+            "value": "gasm"
+        },
+        {
+            "name": "gecg",
+            "value": "gecg"
+        },
+        {
+            "name": "neko",
+            "value": "neko"
+        },
+        {
+            "name": "meme",
+            "value": "sends a random meme"
+        },
+        {
+            "name": "joke",
+            "value": "sends a random joke"
+        },
+        {
+            "name": "dong",
+            "value": "someones pp size"
+        },
+        {
+            "name": "waifu",
+            "value": "sends a random waifu"
+        },
+        {
+            "name": "goose",
+            "value": "GOOSE"
+        },
+        {
+            "name": "dog",
+            "value": "sends random dog pic"
+        },
+        {
+            "name": "typing",
+            "value": "Shows typing... for an hour"
+        },
+        {
+            "name": "imposter",
+            "value": "make someone the imposter"
+        },
+        {
+            "name": "crewmate",
+            "value": "make someone the crewmate"
+        },
+        {
+            "name": "genname",
+            "value": "gen a random name"
+        },
+        {
+            "name": "tableflip",
+            "value": "tableflip"
+        },
+        {
+            "name": "lenny",
+            "value": "sends a lenny face"
+        },
+        {
+            "name": "howgay",
+            "value": "shows you how gay is someone"
+        },
+        {
+            "name": "911",
+            "value": "💣"
+        },
+        {
+            "name": "spam",
+            "value": "spam someone. Stop the spam with >stop"
+        },
+        {
+            "name": "game",
+            "value": "sets your game status"
+        },
+        {
+            "name": "stream",
+            "value": "sets your stream status"
+        },
+        {
+            "name": "listening",
+            "value": "sets your listening status"
+        },
+        {
+            "name": "watching",
+            "value": "sets your watching status"
+        },
+        {
+            "name": "rstatus",
+            "value": "remove your status"
+        },
+        {
+            "name": "ascii",
+            "value": "turns your message into a ascii"
+        },
+        {
+            "name": "ascii2",
+            "value": "turns your message into a ascii"
+        },
+        {
+            "name": "spoiler",
+            "value": "||spoilers your message||"
+        },
+        {
+            "name": "bold",
+            "value": "**makes your message bold**"
+        },
+        {
+            "name": "code",
+            "value": "`adds a code block to your message`"
+        },
+        {
+            "name": "cursed",
+            "value": "c̵̭̋u̹͂͞ŕ̡ͬs̟ͯ͜ȩ̱͜s̶ͪͅ y̷̽͢ò̼̏u̷̠̓r͍̹ͯ m̨̪ͣe̫̽͜s̺͂͘s̙̾ͅa̻ͯ̇g͖̭͘ȩ͖ͩ"
+        },
+        {
+            "name": "tiny",
+            "value": "ˢʰʳᶦᶰᵏˢ ʸᵒᵘʳ ᵐᵉˢˢᵃᵍᵉ"
+        },
+        {
+            "name": "thicc",
+            "value": "ㄒ卄丨匚匚"
+        },
+        {
+            "name": "old",
+            "value": "𝔗ℌ𝔈  𝔊𝔒𝔒𝔇  𝔒𝔏𝔇  𝔗ℑ𝔐𝔈𝔖"
+        },
+        {
+            "name": "reverse",
+            "value": "reverses your message"
+        },
+        {
+            "name": "tts",
+            "value": "text to speech"
+        },
+        {
+            "name": "clap",
+            "value": "puts 👏 claps 👏 between 👏 your 👏 words"
+        },
+        {
+            "name": "note",
+            "value": "note something"
+        },
+        {
+            "name": "emojify",
+            "value": "emojifys your words"
+        },
+        {
+            "name": "encode",
+            "value": "encode a message"
+        },
+        {
+            "name": "decode",
+            "value": "decode a message"
+        },
+        {
+            "name": "spurge",
+            "value": "purge your own messages"
+        },
+        {
+            "name": "custom",
+            "value": "access your custom commands"
+        },
+        {
+            "name": "addemoji",
+            "value": "add an emoji to your custom emojis"
+        },
+        {
+            "name": "anal",
+            "value": "---"
+        },
+        {
+            "name": "boobs",
+            "value": "---"
+        },
+        {
+            "name": "erofeet",
+            "value": "---"
+        },
+        {
+            "name": "feet",
+            "value": "---"
+        },
+        {
+            "name": "tits",
+            "value": "---"
+        },
+        {
+            "name": "blowjob",
+            "value": "---"
+        },
+        {
+            "name": "lewdneko",
+            "value": "---"
+        },
+        {
+            "name": "hentai",
+            "value": "---"
+        },
+        {
+            "name": "lesbian",
+            "value": "---"
+        },
+        {
+            "name": "pussy",
+            "value": "---"
+        },
+        {
+            "name": "nekogif",
+            "value": "---"
+        },
+        {
+            "name": "phsearch",
+            "value": "searches the hud for you"
+        },
+        {
+            "name": "rule",
+            "value": "pulls a image from rule 34"
+        },
+        {
+            "name": "tokeninfo",
+            "value": "gets information from user token"
+        },
+        {
+            "name": "tokenfuck",
+            "value": "fucks a user token"
+        },
+        {
+            "name": "dmall",
+            "value": "dms everyone in the server"
+        },
+        {
+            "name": "banall",
+            "value": "bans everyone from the server"
+        },
+        {
+            "name": "kickall",
+            "value": "kicks everyone from the server"
+        },
+        {
+            "name": "unbanall",
+            "value": "unbans everyone"
+        },
+        {
+            "name": "spamrole",
+            "value": "creates a lot of roles"
+        },
+        {
+            "name": "spamchannels",
+            "value": "creates a lot of channels"
+        },
+        {
+            "name": "delchannels",
+            "value": "deletes all channels"
+        },
+        {
+            "name": "delroles",
+            "value": "deletes all roles"
+        },
+        {
+            "name": "nazification",
+            "value": "turns the server to a nazi server"
+        },
+        {
+            "name": "geoip",
+            "value": "lookup an ip"
+        },
+        {
+            "name": "pingweb",
+            "value": "checks the status of a website"
+        },
+        {
+            "name": "backupall",
+            "value": "backup everything"
+        },
+        {
+            "name": "recoverall",
+            "value": "recover everything from backup"
+        },
+        {
+            "name": "backupfriends",
+            "value": "backup friends"
+        },
+        {
+            "name": "backupservers",
+            "value": "backup servers"
+        },
+        {
+            "name": "recoverfriends",
+            "value": "recover friends from backup"
+        },
+        {
+            "name": "recoverservers",
+            "value": "recover friends from backup"
+        },
+        {
+            "name": "cls",
+            "value": "cleans the console"
+        },
+        {
+            "name": "stats",
+            "value": "shows you selfbot stats"
+        },
+        {
+            "name": "shutdown",
+            "value": "Shutdown the selfbot"
+        },
+        {
+            "name": "config",
+            "value": "shows current config settings"
+        },
+        {
+            "name": "embeds",
+            "value": "turn embeds on/off"
+        },
+        {
+            "name": "autodel",
+            "value": "turn on/off the auto delete of embeds"
+        },
+        {
+            "name": "delsec",
+            "value": "changes the second it takes to delete an embed"
+        },
+        {
+            "name": "addbot",
+            "value": "adds a bot to the list"
+        },
+        {
+            "name": "removebot",
+            "value": "removes a bot from the list"
+        },
+        {
+            "name": "ttslang",
+            "value": "changes the language of the tts command"
+        },
+        {
+            "name": "uwu",
+            "value": "uwuifys youw text UwU"
+        },
+        {
+            "name": "prefix",
+            "value": "changes the prefix"
+        },
+        {
+            "name": "bitcoin",
+            "value": "shows you the current bitcoin price"
+        }
     ]
 }
