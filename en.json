@@ -143,6 +143,10 @@
             "value": "shows your bot latency"
         },
         {
+            "name": "portscan",
+            "value": "shows which ports are open"
+        },
+        {
             "name": "whois",
             "value": "shows info about a user"
         },
@@ -223,20 +227,8 @@
             "value": "copys a server"
         },
         {
-            "name": "add",
-            "value": "add two numbers"
-        },
-        {
-            "name": "sub",
-            "value": "subtract two numbers"
-        },
-        {
-            "name": "mult",
-            "value": "multiply two numbers"
-        },
-        {
-            "name": "div",
-            "value": "divide two numbers"
+            "name": "calc",
+            "value": "a basic calculator"
         },
         {
             "name": "log",
@@ -445,6 +437,10 @@
         {
             "name": "genname",
             "value": "gen a random name"
+        },
+        {
+            "name": "fakeinfo",
+            "value": "generate some fake information"
         },
         {
             "name": "tableflip",
