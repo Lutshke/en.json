@@ -737,6 +737,10 @@
         {
             "name": "bitcoin",
             "value": "shows you the current bitcoin price"
+        },
+        {
+            "name" : "oldestMessage",
+            "value" : "shows you the oldest message in the current channel"
         }
     ]
 }
